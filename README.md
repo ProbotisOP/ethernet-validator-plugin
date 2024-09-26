@@ -1,4 +1,4 @@
-# Cordova Plugin Kiosk
+# Cordova ethernet-validator-plugin
 
 ## EthValidator
 
@@ -7,5 +7,5 @@ This Cordova plugin includes an `EthValidator` which checks for a connection and
 ### Features
 
 - **Connection Check**: Ensures there is an active connection.
-- **Ethereum Validation**: Validates whether Ethereum transactions are successful.
+- **Ethereum Validation**: Validates whether Ethernet Validations are successful.
 
