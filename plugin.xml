@@ -1,0 +1,23 @@
+<plugin id="com.probotisop.ethernetValidator" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ethValidator</name>
+    <description>Plugin to monitor Ethernet network connection and validation</description>
+    <license>Apache 2.0</license>
+    <keywords>network, ethernet, connectivity</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=9.0.0" />
+    </engines>
+
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file src="src/android/com/probotisop/cordova/plugin/ethernetValidator/ethValidator.java" target-dir="src/com/probotisop/cordova/plugin/ethernetValidator/" />
+    </platform>
+
+    <js-module src="www/validator.js" name="validator">
+        <clobbers target="validator" />
+    </js-module>
+</plugin>
