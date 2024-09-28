@@ -14,7 +14,7 @@
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
 
-        <source-file src="src/android/com/probotisop/cordova/plugin/ethernetValidator/ethValidator.java" target-dir="src/com/probotisop/cordova/plugin/ethernetValidator/" />
+        <source-file src="src/android/com/probotisop/cordova/plugin/ethernetValidator/EthValidator.java" target-dir="src/com/probotisop/cordova/plugin/ethernetValidator/" />
     </platform>
 
     <js-module src="www/validator.js" name="validator">
