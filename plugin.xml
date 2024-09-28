@@ -5,7 +5,7 @@
     <keywords>network, ethernet, connectivity</keywords>
 
     <engines>
-        <engine name="cordova" version=">=9.0.0" />
+        <engine name="cordova" version=">=7.0.0" />
     </engines>
 
     <platform name="android">
