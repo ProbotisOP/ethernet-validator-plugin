@@ -5,15 +5,17 @@
     <keywords>network, ethernet, connectivity</keywords>
 
     <engines>
-        <engine name="cordova" version=">=7.0.0" />
+        <engine name="cordova" version=">=8.0.0" /> <!-- Set it to 8.0.0 or higher based on your requirements -->
     </engines>
 
     <platform name="android">
-        <config-file target="AndroidManifest.xml" parent="/*">
+        <!-- Updated parent for config-file -->
+        <config-file target="AndroidManifest.xml" parent="//manifest">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="android.permission.INTERNET" />
         </config-file>
 
+        <!-- Ensure this path matches your actual plugin's folder structure -->
         <source-file src="src/android/com/probotisop/cordova/plugin/ethernetValidator/EthValidator.java" target-dir="src/com/probotisop/cordova/plugin/ethernetValidator/" />
     </platform>
 
