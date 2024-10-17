@@ -1,0 +1,17 @@
+{
+    "name": "cordova-ethernet-validator",
+    "version": "0.0.1",
+    "description": "Cordova Ethernet validator plugin",
+    "cordova": {
+        "id": "cordova-ethernet-validator",
+        "platforms": [
+            "android"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ProbotisOP/cordova-ethernet-validator"
+    },
+    "keywords": ["cordova", "launcher", "homescreen", "Ethernet", "Network"],
+    "license": "Apache-2.0"
+}
